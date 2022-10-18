@@ -1,0 +1,36 @@
+#summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.summary-heading {
+    width: 100%;
+    max-width: 470px;
+
+    strong {
+        font-size: 1rem;
+        color: var(--blueColor);
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+
+    h2 {
+        font-size: 2rem;
+        line-height: 2.9rem;
+        margin: 20px 0;
+    }
+}
+
+.summary-details {
+    width: 100%;
+    max-width: 470px;
+    border: 1px dashed var(--grayColor);
+    padding: 15px 20px;
+
+    p {
+        font-size: 1rem;
+        color: var(--grayColor);
+    }
+}
