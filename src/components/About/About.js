@@ -9,7 +9,7 @@ const About = () => {
                     <strong>About me</strong>
                     <h3>Designing with passion for Problem Solving</h3>
                     <a href="tel:0343441421" className="btn-link">
-                        034-344-1421 <i class="fa-solid fa-phone-flip"></i>
+                        034-344-1421 <i className="fa-solid fa-phone-flip"></i>
                     </a>
                 </div>
 

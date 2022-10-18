@@ -9,10 +9,14 @@ import Career from './components/Career/Career';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import Progress from './components/Progress/Progress';
+import Theme from './components/Theme/Theme';
 
 const App = () => {
     return (
         <>
+            <Theme />
+            <Progress />
             <div className="container">
                 <Navigation />
                 <Home />

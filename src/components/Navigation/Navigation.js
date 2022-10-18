@@ -5,7 +5,7 @@ const Navigation = () => {
     return (
         <nav className="navigation">
             <a className="logo" href="#!">
-                Dev
+                XuanTruong
             </a>
         </nav>
     );
