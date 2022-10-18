@@ -58,8 +58,8 @@ const Projects = () => {
                 className="mySwiper"
             >
                 {data.map((project) => (
-                    <SwiperSlide>
-                        <div className="project-box" key={project.src}>
+                    <SwiperSlide key={project.src}>
+                        <div className="project-box">
                             <a href={project.url}>
                                 <img src={project.src} alt="project" />
                                 <div className="p-overlayer">

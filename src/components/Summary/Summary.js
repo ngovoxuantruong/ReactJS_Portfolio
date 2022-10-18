@@ -8,7 +8,7 @@ const Summary = () => {
             <div className="summary-heading">
                 <strong>My Skillset</strong>
 
-                <h2>HTML, CSS, Reponsive, Javascript, ReactJS, Redux, NodeJS</h2>
+                <h2>Strengths: Front-end technology and Back-end web application development</h2>
 
                 <a href={CV} download className="btn-link">
                     Get CV <i className="fa-solid fa-download"></i>
