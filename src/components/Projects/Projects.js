@@ -22,11 +22,11 @@ const Projects = () => {
         },
         {
             src: Project2,
-            url: '#!',
+            url: 'https://myportfolio-ceg.pages.dev/',
         },
         {
             src: Project3,
-            url: '#!',
+            url: 'https://github.com/ngovoxuantruong8/Frontend16_NgoVoXuanTruong',
         },
     ];
 

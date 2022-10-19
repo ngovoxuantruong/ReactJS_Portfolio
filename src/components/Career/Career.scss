@@ -17,7 +17,8 @@
     background: var(--grayColor);
 }
 
-.career h3 {
+.career h3,
+h3 {
     font-size: 3.1rem;
     letter-spacing: 1px;
     margin-bottom: 10px;
@@ -65,7 +66,7 @@
  * # REPONSIVE
 \*-----------------------------------*/
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     .career-education {
         flex-wrap: wrap;
         justify-content: center;
@@ -84,5 +85,9 @@
 
     .career-edu {
         margin-top: 50px;
+    }
+
+    h3 {
+        text-align: center;
     }
 }
