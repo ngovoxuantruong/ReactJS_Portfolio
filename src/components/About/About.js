@@ -14,10 +14,13 @@ const About = () => {
                 </div>
 
                 <div className="about-details" data-aos="flip-right">
-                    <p>Proficiency in HTML, CSS, JavaScript</p>
-                    <p>Strong proficiency in JavaScript, including DOM manipulation and the JavaScript object model</p>
-                    <p>Familiarity with newer specifications of EcmaScript</p>
-                    <p>Ability to learn and apply new technology quickly</p>
+                    <p>
+                        - Proficiency in HTML, CSS, JavaScript <br />
+                        - Strong proficiency in JavaScript, including DOM manipulation and the JavaScript object model
+                        <br />
+                        - Familiarity with newer specifications of EcmaScript <br />
+                        - Ability to learn and apply new technology quickly <br />
+                    </p>
                 </div>
             </div>
         </section>

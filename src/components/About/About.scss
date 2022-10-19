@@ -24,6 +24,10 @@
 
 .about-details {
     width: 475px;
+    width: 100%;
+    max-width: 470px;
+    border: 1px dashed var(--grayColor);
+    padding: 15px 20px;
 
     p {
         color: var(--grayColor);

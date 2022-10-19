@@ -20,7 +20,7 @@ const Summary = () => {
                     - HTML, SASS, JavaScript <br />
                     - Responsive ( Boosttrap 5, Grid CSS ) <br />
                     - ReactJS ( Redeux, Redux Toolkit ) <br />
-                    - Node (ExpressJS) <br />
+                    - Node ( ExpressJS, MongoDB ) <br />
                 </p>
             </div>
         </section>

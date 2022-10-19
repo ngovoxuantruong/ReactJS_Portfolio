@@ -5,15 +5,19 @@ const Languages = () => {
     const data = [
         {
             title: 'Languages',
-            contents: ['Javascript', 'ReactJS', 'NodeJS'],
+            contents: ['Javascript'],
         },
         {
-            title: 'Sofware',
-            contents: ['VSCode'],
+            title: 'Framework',
+            contents: ['ReactJS', 'NodeJS'],
         },
         {
             title: 'Database',
-            contents: ['MySQL'],
+            contents: ['MySQL', 'MongoDB'],
+        },
+        {
+            title: 'Software',
+            contents: ['VSCode'],
         },
     ];
 

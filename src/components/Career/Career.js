@@ -60,12 +60,6 @@ const Career = () => {
                     </div>
                 </div>
             </div>
-
-            <div className="btn-c">
-                <a href={CV} download className="btn-link">
-                    GET CV <i className="fa-solid fa-download"></i>
-                </a>
-            </div>
         </section>
     );
 };

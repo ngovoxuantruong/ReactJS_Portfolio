@@ -8,7 +8,7 @@ const Home = () => {
             <div className="home-text" data-aos="fade-down">
                 <strong>Hello, it's me</strong>
                 <h1>Ngo Vo Xuan Truong</h1>
-                <p>Over 1 years of experience in programming with good communication and quick learning skills</p>
+                <p>Six months of experience in programming with good communication and quick learning skills</p>
                 <a className="btn-link" href="#summary">
                     Scroll for me!
                 </a>
