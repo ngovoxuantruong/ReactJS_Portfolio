@@ -18,7 +18,7 @@ const Projects = () => {
     const data = [
         {
             src: Project1,
-            url: '#!',
+            url: 'https://ngovoxuantruong8.github.io/HTML-CSS-JS_Filmlane/',
         },
         {
             src: Project2,
@@ -55,8 +55,8 @@ const Projects = () => {
                 {data.map((project) => (
                     <SwiperSlide key={project.src}>
                         <div className="project-box">
-                            <a href={project.url}>
-                                <img src={project.src} width="481" height="274" alt="project" />
+                            <a href={project.url} target="_blank">
+                                <img src={project.src} alt="project" />
                                 <div className="p-overlayer">
                                     <strong>Outserved Reports</strong>
                                 </div>
