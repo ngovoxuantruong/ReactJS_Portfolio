@@ -6,37 +6,22 @@ const Process = () => {
         {
             id: '01',
             title: 'Pre-Process',
-            contents: ['Collect infomations', 'Personas', 'Setup Goals', 'Project Folder', 'Moonboard'],
+            contents: ['HTML', 'CSS', 'Javascript', 'Grid CSS', 'Bootstrap 5', 'Version control system'],
         },
         {
             id: '02',
-            title: 'Pre-Process',
-            contents: ['Collect infomations', 'Personas', 'Setup Goals', 'Project Folder', 'Moonboard'],
+            title: 'Front-End-Process',
+            contents: ['ReactJS', 'Redux', 'Redux Toolkit'],
         },
         {
             id: '03',
-            title: 'Pre-Process',
-            contents: ['Collect infomations', 'Personas', 'Setup Goals', 'Project Folder', 'Moonboard'],
-        },
-        {
-            id: '04',
-            title: 'Pre-Process',
-            contents: ['Collect infomations', 'Personas', 'Setup Goals', 'Project Folder', 'Moonboard'],
-        },
-        {
-            id: '05',
-            title: 'Pre-Process',
-            contents: ['Collect infomations', 'Personas', 'Setup Goals', 'Project Folder', 'Moonboard'],
-        },
-        {
-            id: '06',
-            title: 'Pre-Process',
-            contents: ['Collect infomations', 'Personas', 'Setup Goals', 'Project Folder', 'Moonboard'],
+            title: 'Back-End-Process',
+            contents: ['NodeJS ( ExpressJS )'],
         },
     ];
 
     return (
-        <section className="process">
+        <section className="process" data-aos="fade-down">
             <div className="process-heading">
                 <h3>Process</h3>
             </div>

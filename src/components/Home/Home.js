@@ -5,7 +5,7 @@ import Avatar from '../../assets/images/Avatar1.jpg';
 const Home = () => {
     return (
         <section id="home">
-            <div className="home-text">
+            <div className="home-text" data-aos="fade-down">
                 <strong>Hello, it's me</strong>
                 <h1>Ngo Vo Xuan Truong</h1>
                 <p>Over 1 years of experience in programming with good communication and quick learning skills</p>
@@ -14,7 +14,7 @@ const Home = () => {
                 </a>
             </div>
 
-            <div className="home-img">
+            <div className="home-img" data-aos="fade-up">
                 <div className="img-box">
                     <img src={Avatar} alt="Avatar" />
 
@@ -24,11 +24,14 @@ const Home = () => {
                     </h2>
 
                     <div className="social">
-                        <a href="#!">
+                        <a href="https://www.facebook.com/xuantruong.ngovo" target="_blank">
                             <i className="fa-brands fa-facebook"></i>
                         </a>
 
-                        <a href="#!">
+                        <a
+                            href="https://www.linkedin.com/in/ng%C3%B4-v%C3%B5-xu%C3%A2n-tr%C6%B0%E1%BB%9Dng-130915231/"
+                            target="_blank"
+                        >
                             <i className="fa-brands fa-linkedin"></i>
                         </a>
                     </div>

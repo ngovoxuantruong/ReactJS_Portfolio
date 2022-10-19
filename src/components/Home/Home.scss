@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     position: relative;
 }
 
@@ -154,4 +154,18 @@
 
 .home-img:hover .img-box img {
     opacity: 0;
+}
+
+/*-----------------------------------*\
+ * # REPONSIVE
+\*-----------------------------------*/
+
+@media (max-width: 865px) {
+    #home {
+        justify-content: center;
+    }
+
+    .home-text {
+        max-width: none;
+    }
 }

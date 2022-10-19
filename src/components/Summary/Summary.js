@@ -5,25 +5,22 @@ import CV from '../../assets/cv/CV_Ngo_Vo_Xuan_Truong_Front_end_developer.pdf';
 const Summary = () => {
     return (
         <section id="summary">
-            <div className="summary-heading">
+            <div className="summary-heading" data-aos="fade-right">
                 <strong>My Skillset</strong>
 
-                <h2>Strengths: Front-end technology and Back-end web application development</h2>
+                <h2>Strengths: Front-end technology</h2>
 
                 <a href={CV} download className="btn-link">
                     Get CV <i className="fa-solid fa-download"></i>
                 </a>
             </div>
 
-            <div className="summary-details">
+            <div className="summary-details" data-aos="fade-left">
                 <p>
-                    - HTML, CSS, JavaScript (ReactJS, React-Native, Lit) <br />
-                    - PHP (Laravel, Symfony, Codeigniter, Yii) <br />
+                    - HTML, SASS, JavaScript <br />
+                    - Responsive ( Boosttrap 5, Grid CSS ) <br />
+                    - ReactJS ( Redeux, Redux Toolkit ) <br />
                     - Node (ExpressJS) <br />
-                    - RESTful API, GraphQL <br />
-                    - MySQL, PostgreSQL, NoSQL (MongoDB) <br />
-                    - Server (Apache, Nginx, Redis, Memcached, Queue, Log, Crontjob...), Rancher, K8S, Docker <br />
-                    - AWS (Load balancing, EC2, ECS, Router 53, RDS, S3) <br />
                 </p>
             </div>
         </section>

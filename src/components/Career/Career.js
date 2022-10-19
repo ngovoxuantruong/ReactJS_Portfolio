@@ -5,35 +5,35 @@ import CV from '../../assets/cv/CV_Ngo_Vo_Xuan_Truong_Front_end_developer.pdf';
 const Career = () => {
     const careers = [
         {
-            title: 'Front-end Developer',
-            name: 'Software',
-            year: '2020 - 2022',
+            title: 'F8 - Fullstack.edu',
+            name: 'From - To',
+            year: '05/2022 - 11/2022',
         },
         {
-            title: 'Back-end Developer',
-            name: 'Software',
-            year: '2020 - 2022',
+            title: 'Udemy, Educative, Codeacademy',
+            name: 'From - To',
+            year: '05/2022 - 11/2022',
         },
     ];
 
     const educations = [
         {
-            title: 'Front-end Developer',
-            name: 'Software',
-            year: '2020 - 2022',
+            title: 'ZendVN center',
+            name: 'From - To',
+            year: '05/2022 - 11/2022',
         },
         {
-            title: 'Back-end Developer',
-            name: 'Software',
-            year: '2020 - 2022',
+            title: 'Geeksforgeeks, Developer.mozilla',
+            name: 'From - To',
+            year: '05/2022 - 11/2022',
         },
     ];
 
     return (
         <section id="career">
             <div className="career-education">
-                <div className="career">
-                    <h3>Career</h3>
+                <div className="career" data-aos="fade-right">
+                    <h3>Studying</h3>
 
                     <div className="c-b-container">
                         {careers.map((career, index) => (
@@ -46,8 +46,8 @@ const Career = () => {
                     </div>
                 </div>
 
-                <div className="career-edu">
-                    <h3>Education</h3>
+                <div className="career-edu" data-aos="fade-left">
+                    <h3>Studying</h3>
 
                     <div className="c-b-container">
                         {educations.map((career, index) => (

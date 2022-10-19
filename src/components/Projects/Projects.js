@@ -4,7 +4,6 @@ import './Projects.scss';
 import Project1 from '../../assets/images/project1.jpg';
 import Project2 from '../../assets/images/project2.jpg';
 import Project3 from '../../assets/images/project3.jpg';
-import Project4 from '../../assets/images/project4.png';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -29,14 +28,10 @@ const Projects = () => {
             src: Project3,
             url: '#!',
         },
-        {
-            src: Project4,
-            url: '#!',
-        },
     ];
 
     return (
-        <section id="project">
+        <section id="project" data-aos="fade">
             <div className="project-heading">
                 <h3>Recent Projects</h3>
             </div>
@@ -61,7 +56,7 @@ const Projects = () => {
                     <SwiperSlide key={project.src}>
                         <div className="project-box">
                             <a href={project.url}>
-                                <img src={project.src} alt="project" />
+                                <img src={project.src} width="481" height="274" alt="project" />
                                 <div className="p-overlayer">
                                     <strong>Outserved Reports</strong>
                                 </div>
@@ -72,7 +67,7 @@ const Projects = () => {
             </Swiper>
 
             <div className="github-btn">
-                <a href="https://github.com/ngovoxuantruong8" className="btn-link">
+                <a href="https://github.com/ngovoxuantruong8" target="_blank" className="btn-link">
                     My Github <i className="fa-brands fa-github"></i>
                 </a>
             </div>

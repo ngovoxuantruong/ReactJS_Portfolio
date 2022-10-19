@@ -17,7 +17,7 @@ const Progress = () => {
         let calcHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
         let scrollValue = Math.round((pos * 100) / calcHeight);
 
-        scrollProgress.style.background = `conic-gradiant(#689af8 ${scrollValue}%, #2b2f38${scrollValue})`;
+        scrollProgress.style.background = `conic-gradient(#689af8 ${scrollValue}%, #2b2f38 ${scrollValue}%)`;
         progressValue.innerText = `${scrollValue}%`;
     }, [run]);
 

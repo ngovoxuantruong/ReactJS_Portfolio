@@ -5,20 +5,20 @@ const Languages = () => {
     const data = [
         {
             title: 'Languages',
-            contents: ['Javascript', 'ReactJS', 'NodeJS', 'Redux'],
+            contents: ['Javascript', 'ReactJS', 'NodeJS'],
         },
         {
             title: 'Sofware',
-            contents: ['VSCode', 'Tableau', 'Jupyter', 'Notebook'],
+            contents: ['VSCode'],
         },
         {
             title: 'Database',
-            contents: ['PostgresQL', 'AWS', 'MongoDB'],
+            contents: ['MySQL'],
         },
     ];
 
     return (
-        <section id="languages">
+        <section id="languages" data-aos="fade">
             {data.map((item) => (
                 <div className="languages-box" key={item.title}>
                     <h3>{item.title}</h3>
