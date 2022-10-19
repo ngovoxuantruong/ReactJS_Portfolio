@@ -22,7 +22,7 @@ const Projects = () => {
         },
         {
             src: Project2,
-            url: 'https://myportfolio-ceg.pages.dev/',
+            url: '',
         },
         {
             src: Project3,
