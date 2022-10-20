@@ -18,7 +18,7 @@ const Summary = () => {
             <div className="summary-details" data-aos="fade-left">
                 <p>
                     - HTML, SASS, JavaScript <br />
-                    - Responsive ( Boosttrap 5, Grid CSS ) <br />
+                    - Responsive ( Bootstrap 5, Grid CSS ) <br />
                     - ReactJS ( Redeux, Redux Toolkit ) <br />
                     - Node ( ExpressJS, MongoDB ) <br />
                 </p>
