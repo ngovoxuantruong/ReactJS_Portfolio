@@ -9,7 +9,7 @@ const Languages = () => {
         },
         {
             title: 'Framework',
-            contents: ['ReactJS', 'NodeJS'],
+            contents: ['ReactJS'],
         },
         {
             title: 'Database',
