@@ -7,7 +7,7 @@ const Home = () => {
         <section id="home">
             <div className="home-text" data-aos="fade-down">
                 <strong>Hello, it's me</strong>
-                <h1>Ngo Vo Xuan Truong</h1>
+                <h1 className="home-name">Ngo Vo Xuan Truong</h1>
                 <p>Six months of experience in programming with good communication and quick learning skills</p>
                 <a className="btn-link" href="#summary">
                     Scroll for me!
