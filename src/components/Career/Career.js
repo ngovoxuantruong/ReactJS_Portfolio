@@ -7,12 +7,12 @@ const Career = () => {
         {
             title: 'F8 - Fullstack.edu',
             name: 'From - To',
-            year: '05/2022 - 11/2022',
+            year: '07/2022 - 11/2022',
         },
         {
-            title: 'Udemy, Educative, Codeacademy',
+            title: 'Udemy, Codeacademy',
             name: 'From - To',
-            year: '05/2022 - 11/2022',
+            year: '07/2022 - 11/2022',
         },
     ];
 
@@ -20,12 +20,12 @@ const Career = () => {
         {
             title: 'ZendVN center',
             name: 'From - To',
-            year: '05/2022 - 11/2022',
+            year: '07/2022 - 11/2022',
         },
         {
-            title: 'Geeksforgeeks, Developer.mozilla',
+            title: 'JSMastery, Educative',
             name: 'From - To',
-            year: '05/2022 - 11/2022',
+            year: '07/2022 - 11/2022',
         },
     ];
 
