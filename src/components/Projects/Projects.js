@@ -2,7 +2,7 @@ import React from 'react';
 import './Projects.scss';
 
 import Project1 from '../../assets/images/project1.png';
-import Project3 from '../../assets/images/project2.png';
+import Project2 from '../../assets/images/project2.png';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -17,12 +17,12 @@ const Projects = () => {
     const data = [
         {
             src: Project1,
-            url: 'https://ngovoxuantruong8.github.io/HTML-CSS-JS_Filmlane/',
+            url: 'https://reactjs-youtube.pages.dev/',
             overview: '- ReactJS \n   - Material UI v5 \n   - RapidAPI \n   - Responsive',
         },
         {
-            src: Project3,
-            url: 'https://github.com/ngovoxuantruong8/Frontend16_NgoVoXuanTruong',
+            src: Project2,
+            url: 'https://ngovoxuantruong8.github.io/HTML-CSS-JS_Filmlane/',
             overview: '- HTML \n   - CSS \n   - Responsive',
         },
     ];
