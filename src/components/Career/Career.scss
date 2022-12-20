@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
+    gap: 200px;
 }
 
 .career-education::before {
@@ -60,6 +61,13 @@ h3 {
 /*-----------------------------------*\
  * # REPONSIVE
 \*-----------------------------------*/
+
+@media (max-width: 1024px) {
+    .career-education {
+        
+        gap: 50px;
+    }
+}
 
 @media (max-width: 900px) {
     .career-education {

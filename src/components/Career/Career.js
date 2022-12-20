@@ -5,27 +5,23 @@ import CV from '../../assets/cv/CV_Ngo_Vo_Xuan_Truong_Front_end_developer.pdf';
 const Career = () => {
     const careers = [
         {
-            title: 'F8 - Fullstack.edu',
-            name: 'From - To',
-            year: '07/2022 - 11/2022',
+            title: 'Advanced CSS and Sass',
+            name: 'Jonas Schmedtmann',
         },
         {
-            title: 'Udemy, Codeacademy',
-            name: 'From - To',
-            year: '07/2022 - 11/2022',
+            title: 'ReactJS Basic, Advanced, Redux Guide',
+            name: 'Hỏi Dân IT Eric',
         },
     ];
 
     const educations = [
         {
-            title: 'ZendVN center',
-            name: 'From - To',
-            year: '07/2022 - 11/2022',
+            title: 'Understanding TypeScript',
+            name: 'Maximilian Schwarzmüller',
         },
         {
-            title: 'JSMastery, Educative',
-            name: 'From - To',
-            year: '07/2022 - 11/2022',
+            title: 'NodeJS (MVC, REST APIs, GraphQL, Deno)',
+            name: 'Maximilian Schwarzmüller',
         },
     ];
 
