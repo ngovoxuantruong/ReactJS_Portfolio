@@ -1,9 +1,12 @@
 import React from 'react';
 import './Projects.scss';
 
-import Project1 from '../../assets/images/project1.png';
-import Project2 from '../../assets/images/project2.png';
-import Project3 from '../../assets/images/project3.png';
+import Project1 from '../../assets/images/youtube-project.png';
+import Project2 from '../../assets/images/thecoffeehouse-project.png';
+import Project3 from '../../assets/images/nexter-project.png';
+import Project4 from '../../assets/images/filmlane-project.png';
+import Project5 from '../../assets/images/natours-project.png';
+import Project6 from '../../assets/images/trillo-project.png';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -22,14 +25,29 @@ const Projects = () => {
             overview: '- Youtube \n   - ReactJS \n   - Material UI v5 \n   - RapidAPI \n',
         },
         {
-            src: Project3,
+            src: Project2,
             url: 'https://reactjs-the-coffee-house.pages.dev/',
             overview: '- The Coffee House \n   - ReactJS \n   - Swiper \n',
         },
         {
-            src: Project2,
+            src: Project3,
+            url: 'https://reactjs-youtube.pages.dev/',
+            overview: '- Nexter \n   - HTML \n   - SCSS \n   - Grid CSS Layout \n',
+        },
+        {
+            src: Project4,
             url: 'https://ngovoxuantruong8.github.io/HTML-CSS-JS_Filmlane/',
             overview: '- Filmlane \n   - HTML \n   - CSS \n',
+        },
+        {
+            src: Project5,
+            url: 'https://reactjs-youtube.pages.dev/',
+            overview: '- Natours \n   - HTML \n   - SCSS \n',
+        },
+        {
+            src: Project6,
+            url: 'https://reactjs-youtube.pages.dev/',
+            overview: '- Trillo \n   - HTML \n   - SCSS \n',
         },
     ];
 
@@ -62,7 +80,7 @@ const Projects = () => {
                                 <img src={project.src} alt="project" />
                                 <div className="p-overlayer">
                                     <pre>
-                                        <strong style={{ color: '#F1D3B3' }}>{project.overview}</strong>
+                                        <strong>{project.overview}</strong>
                                     </pre>
                                 </div>
                             </a>
