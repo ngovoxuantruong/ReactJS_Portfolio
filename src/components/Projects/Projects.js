@@ -31,7 +31,7 @@ const Projects = () => {
         },
         {
             src: Project3,
-            url: 'https://reactjs-youtube.pages.dev/',
+            url: 'https://html-scss-nexter.pages.dev/',
             overview: '- Nexter \n   - HTML \n   - SCSS \n   - Grid CSS Layout \n',
         },
         {
@@ -41,12 +41,12 @@ const Projects = () => {
         },
         {
             src: Project5,
-            url: 'https://reactjs-youtube.pages.dev/',
+            url: 'https://html-scss-natours.pages.dev/',
             overview: '- Natours \n   - HTML \n   - SCSS \n',
         },
         {
             src: Project6,
-            url: 'https://reactjs-youtube.pages.dev/',
+            url: 'https://html-css-trillo.pages.dev/',
             overview: '- Trillo \n   - HTML \n   - SCSS \n',
         },
     ];
