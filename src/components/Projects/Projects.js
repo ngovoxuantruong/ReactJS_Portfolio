@@ -1,53 +1,59 @@
-import React from 'react';
-import './Projects.scss';
+import React from "react";
+import "./Projects.scss";
 
-import Project1 from '../../assets/images/youtube-project.png';
-import Project2 from '../../assets/images/thecoffeehouse-project.png';
-import Project3 from '../../assets/images/nexter-project.png';
-import Project4 from '../../assets/images/filmlane-project.png';
-import Project5 from '../../assets/images/natours-project.png';
-import Project6 from '../../assets/images/trillo-project.png';
+import TocoToco from "../../assets/images/tocotocoProject.png";
+import Project1 from "../../assets/images/youtube-project.png";
+import Project2 from "../../assets/images/thecoffeehouse-project.png";
+import Project3 from "../../assets/images/nexter-project.png";
+import Project4 from "../../assets/images/filmlane-project.png";
+import Project5 from "../../assets/images/natours-project.png";
+import Project6 from "../../assets/images/trillo-project.png";
 
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
-import { Navigation, Pagination } from 'swiper';
+import { Navigation, Pagination } from "swiper";
 
 const Projects = () => {
     const data = [
         {
+            src: TocoToco,
+            url: "https://reactjs-tocotoco.pages.dev/",
+            overview: "- ToCoToCo \n   - ReactJS \n   - Redux toolkit \n",
+        },
+        {
             src: Project1,
-            url: 'https://reactjs-youtube.pages.dev/',
-            overview: '- Youtube \n   - ReactJS \n   - Material UI v5 \n   - RapidAPI \n',
+            url: "https://reactjs-youtube.pages.dev/",
+            overview: "- Youtube \n   - ReactJS \n   - Material UI v5 \n   - RapidAPI \n",
         },
         {
             src: Project2,
-            url: 'https://reactjs-the-coffee-house.pages.dev/',
-            overview: '- The Coffee House \n   - ReactJS \n   - Swiper \n',
+            url: "https://reactjs-the-coffee-house.pages.dev/",
+            overview: "- The Coffee House \n   - ReactJS \n   - Swiper \n",
         },
         {
             src: Project3,
-            url: 'https://html-scss-nexter.pages.dev/',
-            overview: '- Nexter \n   - HTML \n   - SCSS \n   - Grid CSS Layout \n',
+            url: "https://html-scss-nexter.pages.dev/",
+            overview: "- Nexter \n   - HTML \n   - SCSS \n   - Grid CSS Layout \n",
         },
         {
             src: Project4,
-            url: 'https://ngovoxuantruong8.github.io/HTML-CSS-JS_Filmlane/',
-            overview: '- Filmlane \n   - HTML \n   - CSS \n',
+            url: "https://ngovoxuantruong8.github.io/HTML-CSS-JS_Filmlane/",
+            overview: "- Filmlane \n   - HTML \n   - CSS \n",
         },
         {
             src: Project5,
-            url: 'https://html-scss-natours.pages.dev/',
-            overview: '- Natours \n   - HTML \n   - SCSS \n',
+            url: "https://html-scss-natours.pages.dev/",
+            overview: "- Natours \n   - HTML \n   - SCSS \n",
         },
         {
             src: Project6,
-            url: 'https://html-css-trillo.pages.dev/',
-            overview: '- Trillo \n   - HTML \n   - SCSS \n',
+            url: "https://html-css-trillo.pages.dev/",
+            overview: "- Trillo \n   - HTML \n   - SCSS \n",
         },
     ];
 

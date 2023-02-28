@@ -1,6 +1,6 @@
-import React from 'react';
-import './Summary.scss';
-import CV from '../../assets/cv/CV_Ngo_Vo_Xuan_Truong_Front_end_developer.pdf';
+import React from "react";
+import "./Summary.scss";
+import CV from "../../assets/cv/CV Ngô Võ Xuân Trường - Front-end Developer Intern.pdf";
 
 const Summary = () => {
     return (
